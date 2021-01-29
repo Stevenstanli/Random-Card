@@ -1,0 +1,44 @@
+body{
+    background: green;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px; 
+}
+.carta {
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px black;
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+}
+.carta h1{
+        font: 150px/440px Times New Roman, serif;
+    text-align: center;
+    margin: auto;
+}
+.suitesuperior {
+    font-size: 100px;
+    position: absolute;
+    top: -15px;
+    left: 10px;  
+}
+.suiteinferior{
+    transform: rotate(180deg);
+    font-size: 100px;
+    position: absolute;
+    bottom: -15px;
+    right: 10px;
+}
+
+.redSuit{
+    color: red;
+}
+ 
+.blackSuit{
+     color: black;
+}
