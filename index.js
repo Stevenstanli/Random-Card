@@ -19,7 +19,5 @@ window.onload = function () {
         document.getElementById("suits").classList.remove("redSuit");
         document.getElementById("suits1").classList.remove("redSuit");
         console.log(simbolo + " " + simbolo1);
-
-
     }
 }
